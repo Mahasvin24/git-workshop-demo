@@ -12,8 +12,8 @@ class DoctorsOfficeQueue:
 
     def remove_person(self):
         """Remove and return the next person's ID, or None if empty."""
-        return None
+        return self._people.popleft() if self._people else None
 
     def count(self):
         """Return how many people are waiting."""
-        return None
+        return len(self._people)
