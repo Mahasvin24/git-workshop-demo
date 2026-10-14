@@ -8,6 +8,7 @@ class DoctorsOfficeQueue:
 
     def add_person(self, person_id):
         """Add a person's ID to the end of the queue."""
+        print("1")
         return self._people.append(person_id)
 
     def remove_person(self):
