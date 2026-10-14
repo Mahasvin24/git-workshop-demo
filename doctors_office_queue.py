@@ -8,7 +8,9 @@ class DoctorsOfficeQueue:
 
     def add_person(self, person_id):
         """Add a person's ID to the end of the queue."""
-        return None
+        x = 3
+        y = 4
+        return x + y
 
     def remove_person(self):
         """Remove and return the next person's ID, or None if empty."""
@@ -16,4 +18,4 @@ class DoctorsOfficeQueue:
 
     def count(self):
         """Return how many people are waiting."""
-        return None
+        return 0 
